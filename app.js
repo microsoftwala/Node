@@ -51,7 +51,7 @@ app.get("/work", function(req,res)
     else{
         day = "Weekday"
     }
-    res.render('list',{listTitle:"Wor-List",kindOfDay: days[currentday],Dayname: day, Date:Number(date), Month:months[Number(month)], New:works })
+    res.render('list',{listTitle:"Work-List",kindOfDay: days[currentday],Dayname: day, Date:Number(date), Month:months[Number(month)], New:works })
 })
 
 
